@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08071A08269E71C00091A34B /* SearchRespone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08071A07269E71C00091A34B /* SearchRespone.swift */; };
+		080C12E7269FCCA100C0BEB5 /* MarketDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C12E6269FCCA100C0BEB5 /* MarketDataResponse.swift */; };
+		080C12E9269FD4AB00C0BEB5 /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C12E8269FD4AB00C0BEB5 /* WatchListTableViewCell.swift */; };
+		080C12EB269FD62100C0BEB5 /* StockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C12EA269FD62100C0BEB5 /* StockChartView.swift */; };
+		0826D936269F3C4300682BD7 /* NewsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826D935269F3C4300682BD7 /* NewsHeaderView.swift */; };
+		0826D938269F5C6200682BD7 /* NewsStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826D937269F5C6200682BD7 /* NewsStory.swift */; };
+		0826D93A269F62B400682BD7 /* NewsStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826D939269F62B400682BD7 /* NewsStoryTableViewCell.swift */; };
 		0875FEDD268E74B5007FC1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEDC268E74B5007FC1E4 /* AppDelegate.swift */; };
 		0875FEDF268E74B5007FC1E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEDE268E74B5007FC1E4 /* SceneDelegate.swift */; };
-		0875FEE1268E74B5007FC1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEE0268E74B5007FC1E4 /* ViewController.swift */; };
-		0875FEE4268E74B5007FC1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0875FEE2268E74B5007FC1E4 /* Main.storyboard */; };
+		0875FEE1268E74B5007FC1E4 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEE0268E74B5007FC1E4 /* WatchListViewController.swift */; };
 		0875FEE6268E74B5007FC1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875FEE5268E74B5007FC1E4 /* Assets.xcassets */; };
 		0875FEE9268E74B5007FC1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0875FEE7268E74B5007FC1E4 /* LaunchScreen.storyboard */; };
+		0875FEF7268E75E8007FC1E4 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEF6268E75E8007FC1E4 /* SearchResultsViewController.swift */; };
+		0875FEF9268E75FE007FC1E4 /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEF8268E75FE007FC1E4 /* StockDetailsViewController.swift */; };
+		0875FEFB268E7620007FC1E4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEFA268E7620007FC1E4 /* NewsViewController.swift */; };
+		0875FEFD268E77D5007FC1E4 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEFC268E77D5007FC1E4 /* APICaller.swift */; };
+		0875FEFF268E7802007FC1E4 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FEFE268E7802007FC1E4 /* PersistenceManager.swift */; };
+		0875FF01268E7829007FC1E4 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FF00268E7829007FC1E4 /* HapticsManager.swift */; };
+		0875FF03268ED5D7007FC1E4 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FF02268ED5D7007FC1E4 /* extensions.swift */; };
+		0875FF05268ED867007FC1E4 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0875FF04268ED867007FC1E4 /* SearchResultTableViewCell.swift */; };
+		C5D22B7410381D9D5D3BE76F /* Pods_StockClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A899F75DB52101C6EB533BCD /* Pods_StockClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01950C818901270913D9A55D /* Pods-StockClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockClone.debug.xcconfig"; path = "Target Support Files/Pods-StockClone/Pods-StockClone.debug.xcconfig"; sourceTree = "<group>"; };
+		08071A07269E71C00091A34B /* SearchRespone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRespone.swift; sourceTree = "<group>"; };
+		080C12E6269FCCA100C0BEB5 /* MarketDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataResponse.swift; sourceTree = "<group>"; };
+		080C12E8269FD4AB00C0BEB5 /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
+		080C12EA269FD62100C0BEB5 /* StockChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartView.swift; sourceTree = "<group>"; };
+		0826D935269F3C4300682BD7 /* NewsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeaderView.swift; sourceTree = "<group>"; };
+		0826D937269F5C6200682BD7 /* NewsStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStory.swift; sourceTree = "<group>"; };
+		0826D939269F62B400682BD7 /* NewsStoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoryTableViewCell.swift; sourceTree = "<group>"; };
 		0875FED9268E74B5007FC1E4 /* StockClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0875FEDC268E74B5007FC1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0875FEDE268E74B5007FC1E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0875FEE0268E74B5007FC1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0875FEE3268E74B5007FC1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0875FEE0268E74B5007FC1E4 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
 		0875FEE5268E74B5007FC1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0875FEE8268E74B5007FC1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0875FEEA268E74B5007FC1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0875FEF6268E75E8007FC1E4 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		0875FEF8268E75FE007FC1E4 /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
+		0875FEFA268E7620007FC1E4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		0875FEFC268E77D5007FC1E4 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0875FEFE268E7802007FC1E4 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		0875FF00268E7829007FC1E4 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		0875FF02268ED5D7007FC1E4 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		0875FF04268ED867007FC1E4 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		4FF0B3C41A9CDC22CBEBF580 /* Pods-StockClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockClone.release.xcconfig"; path = "Target Support Files/Pods-StockClone/Pods-StockClone.release.xcconfig"; sourceTree = "<group>"; };
+		A899F75DB52101C6EB533BCD /* Pods_StockClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D22B7410381D9D5D3BE76F /* Pods_StockClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0097E512EF3FFD9A1A0F766B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01950C818901270913D9A55D /* Pods-StockClone.debug.xcconfig */,
+				4FF0B3C41A9CDC22CBEBF580 /* Pods-StockClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0875FED0268E74B5007FC1E4 = {
 			isa = PBXGroup;
 			children = (
 				0875FEDB268E74B5007FC1E4 /* StockClone */,
 				0875FEDA268E74B5007FC1E4 /* Products */,
+				0097E512EF3FFD9A1A0F766B /* Pods */,
+				D94EC0E0C1D2720E8465421C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +100,77 @@
 		0875FEDB268E74B5007FC1E4 /* StockClone */ = {
 			isa = PBXGroup;
 			children = (
-				0875FEDC268E74B5007FC1E4 /* AppDelegate.swift */,
-				0875FEDE268E74B5007FC1E4 /* SceneDelegate.swift */,
-				0875FEE0268E74B5007FC1E4 /* ViewController.swift */,
-				0875FEE2268E74B5007FC1E4 /* Main.storyboard */,
-				0875FEE5268E74B5007FC1E4 /* Assets.xcassets */,
-				0875FEE7268E74B5007FC1E4 /* LaunchScreen.storyboard */,
+				0875FEF4268E7516007FC1E4 /* Other */,
+				0875FEF3268E750D007FC1E4 /* Managers */,
+				0875FEF2268E74FD007FC1E4 /* Controllers */,
+				0875FEF1268E74F8007FC1E4 /* Views */,
+				0875FEF0268E74F3007FC1E4 /* Models */,
 				0875FEEA268E74B5007FC1E4 /* Info.plist */,
 			);
 			path = StockClone;
+			sourceTree = "<group>";
+		};
+		0875FEF0268E74F3007FC1E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08071A07269E71C00091A34B /* SearchRespone.swift */,
+				0826D937269F5C6200682BD7 /* NewsStory.swift */,
+				080C12E6269FCCA100C0BEB5 /* MarketDataResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0875FEF1268E74F8007FC1E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0875FEE7268E74B5007FC1E4 /* LaunchScreen.storyboard */,
+				0875FF04268ED867007FC1E4 /* SearchResultTableViewCell.swift */,
+				0826D935269F3C4300682BD7 /* NewsHeaderView.swift */,
+				0826D939269F62B400682BD7 /* NewsStoryTableViewCell.swift */,
+				080C12E8269FD4AB00C0BEB5 /* WatchListTableViewCell.swift */,
+				080C12EA269FD62100C0BEB5 /* StockChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0875FEF2268E74FD007FC1E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0875FEE0268E74B5007FC1E4 /* WatchListViewController.swift */,
+				0875FEF6268E75E8007FC1E4 /* SearchResultsViewController.swift */,
+				0875FEF8268E75FE007FC1E4 /* StockDetailsViewController.swift */,
+				0875FEFA268E7620007FC1E4 /* NewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0875FEF3268E750D007FC1E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0875FEFC268E77D5007FC1E4 /* APICaller.swift */,
+				0875FEFE268E7802007FC1E4 /* PersistenceManager.swift */,
+				0875FF00268E7829007FC1E4 /* HapticsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0875FEF4268E7516007FC1E4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0875FEDC268E74B5007FC1E4 /* AppDelegate.swift */,
+				0875FEE5268E74B5007FC1E4 /* Assets.xcassets */,
+				0875FEDE268E74B5007FC1E4 /* SceneDelegate.swift */,
+				0875FF02268ED5D7007FC1E4 /* extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D94EC0E0C1D2720E8465421C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A899F75DB52101C6EB533BCD /* Pods_StockClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0875FEED268E74B5007FC1E4 /* Build configuration list for PBXNativeTarget "StockClone" */;
 			buildPhases = (
+				E7C206F6E816F48BA2885708 /* [CP] Check Pods Manifest.lock */,
 				0875FED5268E74B5007FC1E4 /* Sources */,
 				0875FED6268E74B5007FC1E4 /* Frameworks */,
 				0875FED7268E74B5007FC1E4 /* Resources */,
+				7C508A09EEF837F3E896EB2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +234,75 @@
 			files = (
 				0875FEE9268E74B5007FC1E4 /* LaunchScreen.storyboard in Resources */,
 				0875FEE6268E74B5007FC1E4 /* Assets.xcassets in Resources */,
-				0875FEE4268E74B5007FC1E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C508A09EEF837F3E896EB2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockClone/Pods-StockClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockClone/Pods-StockClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockClone/Pods-StockClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C206F6E816F48BA2885708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0875FED5268E74B5007FC1E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0875FEE1268E74B5007FC1E4 /* ViewController.swift in Sources */,
+				080C12E7269FCCA100C0BEB5 /* MarketDataResponse.swift in Sources */,
+				0875FF01268E7829007FC1E4 /* HapticsManager.swift in Sources */,
+				0875FF05268ED867007FC1E4 /* SearchResultTableViewCell.swift in Sources */,
+				0875FEFB268E7620007FC1E4 /* NewsViewController.swift in Sources */,
+				0875FEE1268E74B5007FC1E4 /* WatchListViewController.swift in Sources */,
+				0875FEF7268E75E8007FC1E4 /* SearchResultsViewController.swift in Sources */,
+				0875FEFF268E7802007FC1E4 /* PersistenceManager.swift in Sources */,
+				0826D938269F5C6200682BD7 /* NewsStory.swift in Sources */,
+				0875FF03268ED5D7007FC1E4 /* extensions.swift in Sources */,
+				0826D93A269F62B400682BD7 /* NewsStoryTableViewCell.swift in Sources */,
+				080C12EB269FD62100C0BEB5 /* StockChartView.swift in Sources */,
+				0875FEFD268E77D5007FC1E4 /* APICaller.swift in Sources */,
+				08071A08269E71C00091A34B /* SearchRespone.swift in Sources */,
+				0826D936269F3C4300682BD7 /* NewsHeaderView.swift in Sources */,
 				0875FEDD268E74B5007FC1E4 /* AppDelegate.swift in Sources */,
+				0875FEF9268E75FE007FC1E4 /* StockDetailsViewController.swift in Sources */,
+				080C12E9269FD4AB00C0BEB5 /* WatchListTableViewCell.swift in Sources */,
 				0875FEDF268E74B5007FC1E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +310,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0875FEE2268E74B5007FC1E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0875FEE3268E74B5007FC1E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0875FEE7268E74B5007FC1E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +439,14 @@
 		};
 		0875FEEE268E74B5007FC1E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01950C818901270913D9A55D /* Pods-StockClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L9BJYQ2H8;
 				INFOPLIST_FILE = StockClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +454,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cruhstllc.StockClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0875FEEF268E74B5007FC1E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF0B3C41A9CDC22CBEBF580 /* Pods-StockClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L9BJYQ2H8;
 				INFOPLIST_FILE = StockClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cruhstllc.StockClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

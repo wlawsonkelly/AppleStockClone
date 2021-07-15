@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StockDetailsViewController.swift
 //  StockClone
 //
 //  Created by Lawson Kelly on 7/1/21.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StockDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
 
-
 }
-
