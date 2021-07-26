@@ -126,19 +126,6 @@ class StockDetailsViewController: UIViewController {
         }
     }
 
-    private func getChangePercentage(symbol: String, for data: [CandleStick]) -> Double {
-        let latestDate = data[0].date
-//        let priorDate = Date().addingTimeInterval(-((3600 * 24 ) * 2))
-        guard let latestClose = data.first?.close,
-            let priorClose = data.first(where: {
-                !Calendar.current.isDate($0.date, inSameDayAs: latestDate)
-            })?.close else {
-            return 0.0
-            }
-        let diff = 1 - (priorClose/latestClose)
-        return diff
-    }
-
     private func renderChart() {
         // chart view model
         // financial metric
@@ -154,7 +141,7 @@ class StockDetailsViewController: UIViewController {
             viewModels.append(.init(name: "10D Vol", value: "\(metrics.TenDayAverageTradingVolume)"))
         }
 
-        let change = getChangePercentage(symbol: symbol, for: candleStickData)
+        let change = candleStickData.getPercentage()
 
         headerView.configure(chartViewModel: .init(
                                 data: candleStickData.reversed().map { $0.close },

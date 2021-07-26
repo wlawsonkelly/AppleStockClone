@@ -9,15 +9,10 @@ import UIKit
 import FloatingPanel
 
 class WatchListViewController: UIViewController {
-
     private var searchTimer: Timer?
-
     private var panel: FloatingPanelController?
-
     static var maxChangeWidth: CGFloat = 0
-
     private var watchlistMap: [String: [CandleStick]] = [:]
-
     private var viewModels = [WatchListTableViewCell.ViewModel]()
 
     private let tableView: UITableView = {
@@ -90,7 +85,7 @@ class WatchListViewController: UIViewController {
     private func createViewModels() {
         var viewModels = [WatchListTableViewCell.ViewModel]()
         for (symbol, candleSticks) in watchlistMap {
-            let changePercentage = getChangePercentage(symbol: symbol, for: candleSticks)
+            let changePercentage = candleSticks.getPercentage()
             viewModels.append(
                 .init(
                     symbol: symbol,
@@ -115,19 +110,6 @@ class WatchListViewController: UIViewController {
         guard let closingPrice = data.first?.close else { return "" }
 
         return String.formatted(number: closingPrice)
-    }
-
-    private func getChangePercentage(symbol: String, for data: [CandleStick]) -> Double {
-        let latestDate = data[0].date
-//        let priorDate = Date().addingTimeInterval(-((3600 * 24 ) * 2))
-        guard let latestClose = data.first?.close,
-            let priorClose = data.first(where: {
-                !Calendar.current.isDate($0.date, inSameDayAs: latestDate)
-            })?.close else {
-            return 0.0
-            }
-        let diff = 1 - (priorClose/latestClose)
-        return diff
     }
 
     private func setUpFloatingPanel() {
@@ -226,7 +208,7 @@ extension WatchListViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: WatchListTableViewCell.identifier, for: indexPath) as? WatchListTableViewCell else {
             fatalError()
         }
-        viewModels.sort(by: { $0.companyName < $1.companyName })
+        viewModels.sort(by: { $0.symbol < $1.symbol })
         cell.configure(with: viewModels[indexPath.row])
         cell.delegate = self
         return cell
