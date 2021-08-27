@@ -252,7 +252,5 @@ extension WatchListViewController: WatchListTableViewCellDelegate {
     func didUpdateMaxWidth() {
         tableView.reloadData()
     }
-
-
 }
 

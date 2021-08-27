@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-StockClone/Pods-StockClone-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts-iOS13.0/Charts.framework
+${BUILT_PRODUCTS_DIR}/FloatingPanel-iOS13.0/FloatingPanel.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage-iOS13.0/SDWebImage.framework

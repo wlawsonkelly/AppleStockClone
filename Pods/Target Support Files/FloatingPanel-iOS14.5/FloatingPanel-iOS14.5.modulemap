@@ -1,0 +1,6 @@
+framework module FloatingPanel {
+  umbrella header "FloatingPanel-iOS14.5-umbrella.h"
+
+  export *
+  module * { export * }
+}

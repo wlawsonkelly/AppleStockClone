@@ -1,0 +1,6 @@
+framework module Pods_StockClone {
+  umbrella header "Pods-StockClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
